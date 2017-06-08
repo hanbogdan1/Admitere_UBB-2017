@@ -17,7 +17,7 @@ typedef struct nod {
 typedef nod* pointer_nod;
 
 //pt prima cerinta ai nevoie de lista inlantuita cu adaugare in ordice a rangurilor...
-void adaugare_lista(nod* &first, int prieten) {
+void adaugare_lista(pointer_nod &first, int prieten) {
 
 	pointer_nod iterator = first;
 
